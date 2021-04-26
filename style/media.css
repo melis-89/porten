@@ -1,0 +1,245 @@
+@media (min-width: 1200px) {
+    .media__header{
+        display: none;
+    }
+
+    .media__header-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .media__header {
+        display: none;
+    }
+
+    .media__header-menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .header__inner {
+        display: none;
+    }
+
+    .media__header{
+        display: block;
+        background: #343333;
+        padding: 15px 0;
+    }
+    .media__header__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .media__header-icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .burger__active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 15px;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+
+
+    .burger__active span:nth-child(1) {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: #fff;
+        transition: all .2s ease-out;
+    }
+
+
+    .burger__active span:nth-child(2) {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        transition: all .2s ease-out;
+    }
+
+    .burger__active span:nth-child(3) {
+        display: block;
+        width: 15px;
+        height: 2px;
+        background: #fff;
+        transition: all .2s ease-out;
+    }
+
+
+    .burger__btn span:nth-child(2) {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: #fff;
+    }
+
+    .burger__btn span:nth-child(3) {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: #fff;
+    }
+
+
+    .media__header-menu {
+        display: none;
+        background: #0F0F0F;
+        min-height: 380px;
+        padding: 50px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+
+    .menu__list {
+        flex-direction: column;
+        align-items: center;
+        min-height: 180px;
+        justify-content: space-around;
+    }
+
+    .menu__link {
+        font-size: 18px;
+        color: #d8d5d5;
+        padding: 5px 10px;
+    }
+
+    .client__auth {
+        justify-content: center;
+        margin-top: 45px;
+    }
+
+    .log__in, .sign__up {
+        font-size: 16px;
+        line-height: 16px;
+        color: #d8d5d5;
+        margin-left: 10px;
+        padding: 10px;
+        background: #403d3d;
+        border-radius: 5px;
+    }
+
+
+    main {
+        background: black;
+    }
+
+    #hero {
+        width: 540px;
+        margin:  0 auto;
+    }
+
+    .porten__desc {
+        font-size: 12px;
+        width: 260px;
+    }
+
+    .col-7 {
+        padding-bottom: 50px;
+    }
+
+    .season__row {
+        display: flex;
+        margin: -15px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .season__row .col-4 {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+
+    .new__collection-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-5 {
+        width: 55%;
+    }
+
+    .watch__item {
+        padding: 90px 0 0 0 ;
+    }
+
+    .watch__item .title__underline {
+        margin: 40px auto 60px auto;
+    }
+
+    .old__collection-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .old__collection-item {
+        margin-top: 50px;
+    }
+
+    .new__row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin: -20px 0;
+    }
+
+    .col-3 {
+        padding: 20px 0;
+        width: 50%;
+    }
+
+    .brands__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand__icon {
+        width: 330px;
+    }
+
+    #foot {
+        background: #343333;
+        text-align: center;
+    }
+
+    .foot__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot__row .col-4 {
+        padding: 15px 0;
+    }
+
+    .category__content {
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+    ::placeholder {
+        color: #fff;
+    }
+
+    .footer__row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
